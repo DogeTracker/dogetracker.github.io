@@ -1,0 +1,79 @@
+* {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.logo {
+    animation: logo-rotation 3s infinite linear;
+}
+
+.logoText {
+    font-size: 4em;
+    transform: translateY(-50%);
+}
+
+@keyframes logo-rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.invite {
+    outline: none;
+    cursor: pointer;
+    transform: translateY(-100%);
+    font-size: 2em;
+    border-radius: 5px;
+    border-color: #988430;
+    background-color: #ba9e32;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.info {
+    outline: none;
+    cursor: pointer;
+    transform: translateY(-90%);
+    font-size: 2em;
+    border-radius: 5px;
+    border-color: #988430;
+    background-color: #ba9e32;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.review1 {
+    position: absolute;
+    font-size: 2em;
+    top: 140px;
+    left: 120px;
+    color: red;
+}
+
+.review2 {
+    position: absolute;
+    font-size: 2em;
+    top: 600px;
+    right: 120px;
+    color: greenyellow;
+}
+
+.about {
+    font-size: 1.5em;
+    transform: translateY(-130%);
+}
+
+.back {
+    outline: none;
+    cursor: pointer;
+    transform: translateY(-80%);
+    font-size: 2em;
+    border-radius: 5px;
+    border-color: #988430;
+    background-color: #ba9e32;
+    border-style: solid;
+    border-width: 5px;
+}
