@@ -7,5 +7,5 @@ function info() {
 }
 
 function back() {
-    window.location.replace('./index')
+    window.location.replace('./')
 }
