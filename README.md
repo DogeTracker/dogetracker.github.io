@@ -1,1 +1,1 @@
-# dogetracker.github.io
+# dogetracker.tech
